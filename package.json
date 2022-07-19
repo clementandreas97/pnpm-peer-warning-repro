@@ -1,0 +1,15 @@
+{
+  "name": "pnpm-peer-warning-repro",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "test": "pnpm install && pnpm install --frozen-lockfile"
+  },
+  "dependencies": {
+    "redux-thunk": "~2.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
